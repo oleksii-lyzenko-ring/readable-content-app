@@ -14,6 +14,8 @@
 		65554CFB2016464A00CC43C0 /* ReadableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65554CFA2016464A00CC43C0 /* ReadableTableViewController.swift */; };
 		65554CFD2016465800CC43C0 /* ReadableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65554CFC2016465800CC43C0 /* ReadableCell.swift */; };
 		65554CFF2016466B00CC43C0 /* ReadableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65554CFE2016466B00CC43C0 /* ReadableCell.xib */; };
+		65A839432017B19C0066B258 /* kitten.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A839422017B19C0066B258 /* kitten.png */; };
+		65A839452017B8730066B258 /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65A839442017B8730066B258 /* Credits.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		65554CFA2016464A00CC43C0 /* ReadableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableTableViewController.swift; sourceTree = "<group>"; };
 		65554CFC2016465800CC43C0 /* ReadableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableCell.swift; sourceTree = "<group>"; };
 		65554CFE2016466B00CC43C0 /* ReadableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadableCell.xib; sourceTree = "<group>"; };
+		65A839422017B19C0066B258 /* kitten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitten.png; sourceTree = "<group>"; };
+		65A839442017B8730066B258 /* Credits.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				65554CE82016459C00CC43C0 /* AppDelegate.swift */,
 				65554CEC2016459C00CC43C0 /* Main.storyboard */,
+				65A839422017B19C0066B258 /* kitten.png */,
 				65554CEF2016459C00CC43C0 /* Assets.xcassets */,
 				65554CF12016459C00CC43C0 /* LaunchScreen.storyboard */,
 				65554CF42016459C00CC43C0 /* Info.plist */,
 				65554CFA2016464A00CC43C0 /* ReadableTableViewController.swift */,
 				65554CFC2016465800CC43C0 /* ReadableCell.swift */,
 				65554CFE2016466B00CC43C0 /* ReadableCell.xib */,
+				65A839442017B8730066B258 /* Credits.txt */,
 			);
 			path = ReadableApp;
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A839432017B19C0066B258 /* kitten.png in Resources */,
+				65A839452017B8730066B258 /* Credits.txt in Resources */,
 				65554CF32016459C00CC43C0 /* LaunchScreen.storyboard in Resources */,
 				65554CFF2016466B00CC43C0 /* ReadableCell.xib in Resources */,
 				65554CF02016459C00CC43C0 /* Assets.xcassets in Resources */,
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VD9F9AGZ4;
 				INFOPLIST_FILE = ReadableApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ring.com.ReadableApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VD9F9AGZ4;
 				INFOPLIST_FILE = ReadableApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ring.com.ReadableApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
