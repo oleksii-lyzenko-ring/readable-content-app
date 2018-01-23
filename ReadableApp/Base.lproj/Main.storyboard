@@ -89,7 +89,7 @@
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrC-4J-T6F">
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrC-4J-T6F">
                                 <rect key="frame" x="176" y="649" width="672" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -104,10 +104,10 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qbM-CE-mln">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbM-CE-mln">
                                 <rect key="frame" x="0.0" y="294.5" width="1024" height="344.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBx-nY-hU4">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBx-nY-hU4">
                                         <rect key="frame" x="176" y="8" width="672" height="669.5"/>
                                         <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu ultrices vitae auctor eu augue ut lectus. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. At augue eget arcu dictum varius duis. Duis ut diam quam nulla porttitor massa id neque aliquam. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Orci eu lobortis elementum nibh tellus molestie nunc non. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Nisl purus in mollis nunc sed. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Integer malesuada nunc vel risus commodo. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Tortor consequat id porta nibh venenatis.
 
