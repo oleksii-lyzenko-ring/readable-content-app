@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LGZ-6b-tOz">
-    <device id="ipad9_7" orientation="landscape">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,7 +18,7 @@
                 <navigationController id="1ZT-jF-y2e" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Table" image="list" id="hys-QQ-FRZ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FFw-hB-mtD">
-                        <rect key="frame" x="0.0" y="20" width="1024" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -53,7 +53,7 @@
                 <navigationController id="fIR-5p-SIF" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Setup Screen" image="image-break" id="Dms-le-aSh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EPN-ue-mg9">
-                        <rect key="frame" x="0.0" y="20" width="1024" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -64,19 +64,19 @@
             </objects>
             <point key="canvasLocation" x="-2962" y="-523"/>
         </scene>
-        <!--View Controller-->
+        <!--Readable View Controller-->
         <scene sceneID="eB4-PB-l6B">
             <objects>
-                <viewController id="0Dn-VK-DOy" sceneMemberID="viewController">
+                <viewController id="0Dn-VK-DOy" customClass="ReadableViewController" customModule="ReadableApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" id="OXx-AY-Zfs">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RlE-NM-QbK">
-                                <rect key="frame" x="0.0" y="64" width="1024" height="230.5"/>
+                            <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RlE-NM-QbK">
+                                <rect key="frame" x="0.0" y="64" width="768" height="307"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="kitten.png" translatesAutoresizingMaskIntoConstraints="NO" id="wiD-Pg-Ttg">
-                                        <rect key="frame" x="176" y="0.0" width="672" height="230.5"/>
+                                        <rect key="frame" x="100" y="0.0" width="568" height="307"/>
                                         <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                                     </imageView>
                                 </subviews>
@@ -90,7 +90,7 @@
                                 <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrC-4J-T6F">
-                                <rect key="frame" x="176" y="649" width="672" height="50"/>
+                                <rect key="frame" x="100" y="905" width="568" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="br3-ab-lFA"/>
@@ -104,17 +104,17 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbM-CE-mln">
-                                <rect key="frame" x="0.0" y="294.5" width="1024" height="344.5"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbM-CE-mln">
+                                <rect key="frame" x="0.0" y="371" width="768" height="524"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBx-nY-hU4">
-                                        <rect key="frame" x="176" y="8" width="672" height="669.5"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu ultrices vitae auctor eu augue ut lectus. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. At augue eget arcu dictum varius duis. Duis ut diam quam nulla porttitor massa id neque aliquam. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Orci eu lobortis elementum nibh tellus molestie nunc non. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Nisl purus in mollis nunc sed. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Integer malesuada nunc vel risus commodo. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Tortor consequat id porta nibh venenatis.
+                                        <rect key="frame" x="100" y="8" width="568" height="791.5"/>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu ultrices vitae auctor eu augue ut lectus. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. At augue eget arcu dictum varius duis. Duis ut diam quam nulla porttitor massa id neque aliquam. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Orci eu lobortis elementum nibh tellus molestie nunc non. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Nisl purus in mollis nunc sed. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Integer malesuada nunc vel risus commodo. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Tortor consequat id porta nibh venenatis.
 
 At elementum eu facilisis sed. Lectus proin nibh nisl condimentum id venenatis. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Vel fringilla est ullamcorper eget. Porta non pulvinar neque laoreet suspendisse interdum consectetur. Neque sodales ut etiam sit amet nisl purus. Eu non diam phasellus vestibulum lorem. Sed odio morbi quis commodo odio aenean sed adipiscing. At tempor commodo ullamcorper a lacus vestibulum sed arcu.
 
 Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Sit amet volutpat consequat mauris nunc congue. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Et netus et malesuada fames ac turpis egestas sed tempus. Accumsan lacus vel facilisis volutpat est velit egestas. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Sed risus pretium quam vulputate dignissim. Commodo odio aenean sed adipiscing. Etiam tempor orci eu lobortis elementum nibh. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Vitae congue eu consequat ac felis donec et odio pellentesque. Hendrerit gravida rutrum quisque non tellus orci ac. Leo a diam sollicitudin tempor. Vitae justo eget magna fermentum. Odio euismod lacinia at quis risus sed vulputate odio. Amet porttitor eget dolor morbi non arcu. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing.
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -143,7 +143,7 @@ Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Dictumst vestibulum r
                             <constraint firstItem="r1b-ns-BcG" firstAttribute="trailing" secondItem="RlE-NM-QbK" secondAttribute="trailing" id="qrK-HS-AW3"/>
                             <constraint firstItem="r1b-ns-BcG" firstAttribute="bottom" secondItem="DrC-4J-T6F" secondAttribute="bottom" constant="20" id="wET-fC-3Si"/>
                         </constraints>
-                        <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                        <edgeInsets key="layoutMargins" top="0.0" left="100" bottom="0.0" right="100"/>
                         <viewLayoutGuide key="safeArea" id="r1b-ns-BcG"/>
                     </view>
                     <navigationItem key="navigationItem" id="pPa-Ka-fFI"/>
@@ -156,21 +156,21 @@ Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Dictumst vestibulum r
         <scene sceneID="Emm-bF-sQb">
             <objects>
                 <tableViewController id="nek-vF-1ce" customClass="ReadableTableViewController" customModule="ReadableApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wtz-eI-9et">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="wtz-eI-9et">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="d2R-QT-xkc">
-                            <rect key="frame" x="0.0" y="72" width="1024" height="44"/>
+                            <rect key="frame" x="0.0" y="117.5" width="768" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" selectionStyle="default" indentationWidth="10" id="rbd-cd-FXR">
-                                <rect key="frame" x="0.0" y="28" width="1024" height="44"/>
+                                <rect key="frame" x="0.0" y="55.5" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rbd-cd-FXR" id="Sz8-j4-trq">
-                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>

@@ -8,17 +8,29 @@
 
 import UIKit
 
-class ReadableTableViewController: UITableViewController {
+
+
+class ReadableTableViewController: UITableViewController, MarginWidthDesirable {
     let readableCellId = "readableCellId"
+    let desirableContentWidth: CGFloat = 512
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let cellNib = UINib(nibName: "ReadableCell", bundle: nil)
         tableView.register(cellNib, forCellReuseIdentifier: readableCellId)
+
+        let rc = UILayoutGuide()
+        rc.identifier = "UIViewLayoutMarginsGuide"
         
+        self.view.addLayoutGuide(rc)
     }
  
+    override func viewWillLayoutSubviews() {
+        updateMarginsForDesirableContentSize()
+        super.viewWillLayoutSubviews()
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }

@@ -16,6 +16,8 @@
 		65554CFF2016466B00CC43C0 /* ReadableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65554CFE2016466B00CC43C0 /* ReadableCell.xib */; };
 		65A839432017B19C0066B258 /* kitten.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A839422017B19C0066B258 /* kitten.png */; };
 		65A839452017B8730066B258 /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65A839442017B8730066B258 /* Credits.txt */; };
+		65F04265201F62A600EB0B7B /* UIViewController+MarginWidthDesirable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F04264201F62A600EB0B7B /* UIViewController+MarginWidthDesirable.swift */; };
+		65F04267201F680200EB0B7B /* ReadableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F04266201F680200EB0B7B /* ReadableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		65554CFE2016466B00CC43C0 /* ReadableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadableCell.xib; sourceTree = "<group>"; };
 		65A839422017B19C0066B258 /* kitten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitten.png; sourceTree = "<group>"; };
 		65A839442017B8730066B258 /* Credits.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
+		65F04264201F62A600EB0B7B /* UIViewController+MarginWidthDesirable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+MarginWidthDesirable.swift"; sourceTree = "<group>"; };
+		65F04266201F680200EB0B7B /* ReadableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				65554CFC2016465800CC43C0 /* ReadableCell.swift */,
 				65554CFE2016466B00CC43C0 /* ReadableCell.xib */,
 				65A839442017B8730066B258 /* Credits.txt */,
+				65F04264201F62A600EB0B7B /* UIViewController+MarginWidthDesirable.swift */,
+				65F04266201F680200EB0B7B /* ReadableViewController.swift */,
 			);
 			path = ReadableApp;
 			sourceTree = "<group>";
@@ -152,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65554CE92016459C00CC43C0 /* AppDelegate.swift in Sources */,
+				65F04265201F62A600EB0B7B /* UIViewController+MarginWidthDesirable.swift in Sources */,
 				65554CFB2016464A00CC43C0 /* ReadableTableViewController.swift in Sources */,
+				65F04267201F680200EB0B7B /* ReadableViewController.swift in Sources */,
 				65554CFD2016465800CC43C0 /* ReadableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

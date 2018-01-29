@@ -19,6 +19,10 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YPb-xb-NOf" userLabel="Back">
+                        <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="830-1S-4tt">
                         <rect key="frame" x="16" y="11" width="343" height="22"/>
                         <color key="backgroundColor" red="1" green="0.75116063937476396" blue="0.70754665798611116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -36,19 +40,24 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstItem="y4p-Td-UGC" firstAttribute="centerY" secondItem="e5b-so-2vj" secondAttribute="centerY" id="2FV-DW-YCL"/>
+                    <constraint firstAttribute="bottom" secondItem="YPb-xb-NOf" secondAttribute="bottom" id="3eb-Ra-fMC"/>
                     <constraint firstAttribute="trailingMargin" secondItem="830-1S-4tt" secondAttribute="trailing" id="8sf-Bp-2Y2"/>
                     <constraint firstAttribute="bottomMargin" secondItem="830-1S-4tt" secondAttribute="bottom" id="Gxb-sh-axX"/>
                     <constraint firstItem="y4p-Td-UGC" firstAttribute="leading" secondItem="e5b-so-2vj" secondAttribute="leadingMargin" constant="10" id="LR3-18-oHn"/>
                     <constraint firstItem="830-1S-4tt" firstAttribute="top" secondItem="e5b-so-2vj" secondAttribute="topMargin" id="TAd-7O-t7S"/>
+                    <constraint firstItem="YPb-xb-NOf" firstAttribute="leading" secondItem="e5b-so-2vj" secondAttribute="leadingMargin" id="TVB-0l-bUk"/>
                     <constraint firstItem="qw6-mV-6oR" firstAttribute="centerY" secondItem="e5b-so-2vj" secondAttribute="centerY" id="YK9-mc-YJV"/>
                     <constraint firstAttribute="trailingMargin" secondItem="qw6-mV-6oR" secondAttribute="trailing" constant="10" id="kri-lP-n3I"/>
+                    <constraint firstItem="YPb-xb-NOf" firstAttribute="top" secondItem="e5b-so-2vj" secondAttribute="top" id="vjZ-rR-3Ob"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YPb-xb-NOf" secondAttribute="trailing" id="wSa-5K-HVO"/>
                     <constraint firstItem="830-1S-4tt" firstAttribute="leading" secondItem="e5b-so-2vj" secondAttribute="leadingMargin" id="xOU-9t-d3E"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="backgroundView" destination="YPb-xb-NOf" id="3bk-vP-ot9"/>
                 <outlet property="info" destination="qw6-mV-6oR" id="9KC-IZ-Bbp"/>
                 <outlet property="name" destination="y4p-Td-UGC" id="icT-6p-1cN"/>
             </connections>
