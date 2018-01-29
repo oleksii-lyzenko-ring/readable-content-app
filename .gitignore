@@ -1,0 +1,33 @@
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+# Pods - for those of you who use CocoaPods
+Pods
+
+# Test GPX file.
+Casa.gpx
+
+DoorBot.xccheckout
+*.xccheckout
+
+DoorBot/builds/
+.bundle
+
+# Fastlane tokens
+*/fastlane/report.xml
+*/fastlane/builds/
+*/fastlane/tmp/
+Fastfile.tokens.rb
